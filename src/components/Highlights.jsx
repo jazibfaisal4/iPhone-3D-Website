@@ -19,7 +19,7 @@ const Highlights = () => {
     return () => mm.revert();
   }, [])
   return (
-    <section id="highlights" className="w-screen overflow-hidden h-full common-padding bg-zinc">
+    <section id="highlights" className="w-full max-w-[100vw] overflow-x-hidden overflow-hidden h-full common-padding bg-zinc">
       <div className="screen-max-width">
         <div className="mb-12 w-full md:flex items-end justify-between">
           <h1 id="title" className="section-heading">Get the highlights.</h1>
